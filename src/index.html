@@ -8,22 +8,23 @@
   </head>
 
   <body>
-    <label for="charname">Character Name:</label>
+    <form>
+      <label for="charname">Character Name:</label>
     <input type="text" id="charname" name="charname">
 
     <br>
     <br>
 
     <label>Jedi</label>
-    <input type="radio">
+    <input type="radio" value="jedi">
     <label>Sith</label>
-    <input type="radio">
+    <input type="radio" value="sith">
 
     <br>
     <br>
 
     <label>Lightsaber Color:</label>
-    <select>
+    <select name="lightsaber">
       <option>Blue</option>
       <option>Green</option>
       <option>Red</option>
@@ -66,6 +67,6 @@
         <td>10,000</td>
       </tr>
     </table>
-
+  </form>
   </body>
 </html>

@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+    color: white
+}
+
+table, th, td {
+    border: 1px solid white;
+    margin-top: 50px;
+}
+
+td {
+    padding: 5px;
+}
+
+#header {
+    text-align: center;
+    font-weight: 700;
+}
